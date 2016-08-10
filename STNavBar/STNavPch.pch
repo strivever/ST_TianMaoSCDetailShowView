@@ -1,0 +1,19 @@
+//
+//  STNavPch.pch
+//  STNavBar
+//
+//  Created by StriEver on 16/8/8.
+//  Copyright © 2016年 StriEver. All rights reserved.
+//
+
+#ifndef STNavPch_pch
+#define STNavPch_pch
+#import "UIView+Extension.h"
+//定义高度
+#define kUIScreenSize [UIScreen mainScreen].bounds.size
+#define kUIScreenWidth kUIScreenSize.width
+#define kUIScreenHeight kUIScreenSize.height
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* STNavPch_pch */
